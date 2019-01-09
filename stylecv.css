@@ -1,0 +1,63 @@
+﻿body {
+    font-family: OCR A Std, monospace;
+    background-color: #ff7f00;
+}
+#title {
+    font-family: OCR A Std, monospace;
+    background: url("fondok.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    text-shadow: 6px 6px 10px black;
+    color: #ffffff;
+    min-height: 400px;
+    text-align: right;
+    margin-top : 55px;
+    margin-bottom : -37px; 
+
+}
+.compétence
+{
+ text-decoration:overline;
+}
+.année
+{
+    font-size : 35px; 
+}
+.diplome, .poste 
+{
+    font-size : 30px; 
+    font-weight : bold; 
+}
+.nomdiplome, .entreprise
+{
+    font-size : 20px; 
+}
+.ecole
+{
+    font-style : italic; 
+}
+.ville
+{
+    font-weight : bold; 
+}
+h2 
+{
+    font-weight: bold;
+    background-color: #264d63;
+    margin-top: 20px; 
+    margin-bottom : 20px; 
+}
+.bg-dark, .btn-dark
+{
+    background-color: #264d63 !important;
+}
+.card {
+    background-color: #ffffff;
+}
+.card:hover {
+    border: 5px solid #555 !important;
+}
+img{
+   max-width : 80px; 
+}
