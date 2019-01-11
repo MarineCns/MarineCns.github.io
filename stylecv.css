@@ -1,6 +1,6 @@
 ﻿body {
     font-family: OCR A Std, monospace;
-    background-color: #ff7f00;
+    background : url("fondmarbre.jpg"); 
 }
 #title {
     font-family: OCR A Std, monospace;
@@ -10,11 +10,9 @@
     font-weight: bold;
     text-shadow: 6px 6px 10px black;
     color: #ffffff;
-    min-height: 400px;
+    min-height : 200px; 
     text-align: right;
     margin-top : 55px;
-    margin-bottom : -37px; 
-
 }
 .compétence
 {
@@ -41,16 +39,14 @@
 {
     font-weight : bold; 
 }
-h2 
-{
+h2 {
     font-weight: bold;
-    background-color: #264d63;
-    margin-top: 20px; 
-    margin-bottom : 20px; 
+    background-color: #346762;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.bg-dark, .btn-dark
-{
-    background-color: #264d63 !important;
+.bg-dark {
+    background: url("fondmarbre.jpg") !important;
 }
 .card {
     background-color: #ffffff;
@@ -60,4 +56,28 @@ h2
 }
 img{
    max-width : 80px; 
+}
+.ordi {
+    min-height: 400px;
+}
+.attestation{
+    color : white; 
+    text-decoration : underline; 
+}
+.attestation:hover{
+    color : #ddd; 
+}
+.right{
+    margin-right : 10px; 
+}
+.left{
+    margin-left : 10px; 
+}
+.row2{
+    width : 100%; 
+    text-align : center; 
+}
+#perso, #contact, #pro, #formations {
+    margin-top: -40px;
+    
 }
