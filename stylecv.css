@@ -4,13 +4,13 @@
 }
 body {
     font-family: Coiny-Cyrillic, sherif, monospace;
-    background: url("fondmarbre.jpg");
+    background: url("imagefond/fondmarbre.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
 #title {
-    background: url("fondok.jpg");
+    background: url("imagefond/fond4.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-weight: bold;
@@ -50,44 +50,41 @@ body {
 
 h2 {
     font-weight: bold;
-    background-color: #083f28;
+    background-color: #816d6c;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 1px solid #000000 ;
+    text-shadow:
+    #000000 1px 1px,
+    #000000 -1px 1px,
+    #000000 -1px -1px,
+    #000000 1px -1px; 
 }
-
 .bg-dark {
     background: url("fondmarbre.jpg") !important;
 }
-
 .card {
     background-color: #ffffff;
 }
-
 .card:hover {
     border: 5px solid rgb(71, 71, 71) !important;
 }
-
 img {
     max-width: 80px;
 }
-
 .ordi {
     min-height: 400px;
 }
-
 .attestation {
     color: white;
     text-decoration: underline;
 }
-
 .attestation:hover {
     color: #ddd;
 }
-
 .right {
     margin-right: 10px;
 }
-
 .left {
     margin-left: 10px;
 }
@@ -104,8 +101,11 @@ img {
     margin-top: -40px;
 }
 .buttonColor{
-    background-color: #118051; 
+    background-color: #6673a0; 
 }
 .barColor{
-    background-color: #118051 !important; 
+    background-color: #6673a0 !important; 
+}
+.margePage{
+    margin-bottom: 75px
 }
