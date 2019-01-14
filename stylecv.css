@@ -1,83 +1,111 @@
-﻿body {
-    font-family: OCR A Std, monospace;
-    background : url("fondmarbre.jpg"); 
+﻿@font-face{
+    font-family : "Coiny-Cyrillic"; 
+    src : url("font/Coiny-Cyrillic.ttf");
 }
+body {
+    font-family: Coiny-Cyrillic, sherif, monospace;
+    background: url("fondmarbre.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
 #title {
-    font-family: OCR A Std, monospace;
     background: url("fondok.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-weight: bold;
     text-shadow: 6px 6px 10px black;
     color: #ffffff;
-    min-height : 200px; 
+    min-height: 200px;
     text-align: right;
-    margin-top : 55px;
+    margin-top: 55px;
 }
-.compétence
-{
- text-decoration:overline;
+
+.compétence {
+    text-decoration: overline;
 }
-.année
-{
-    font-size : 35px; 
+
+.année {
+    font-size: 35px;
 }
-.diplome, .poste 
-{
-    font-size : 30px; 
-    font-weight : bold; 
+
+.diplome,
+.poste {
+    font-size: 30px;
+    font-weight: bold;
 }
-.nomdiplome, .entreprise
-{
-    font-size : 20px; 
+
+.nomdiplome,
+.entreprise {
+    font-size: 20px;
 }
-.ecole
-{
-    font-style : italic; 
+
+.ecole {
+    font-style: italic;
 }
-.ville
-{
-    font-weight : bold; 
+
+.ville {
+    font-weight: bold;
 }
+
 h2 {
     font-weight: bold;
-    background-color: #346762;
+    background-color: #083f28;
     margin-top: 20px;
     margin-bottom: 20px;
 }
+
 .bg-dark {
     background: url("fondmarbre.jpg") !important;
 }
+
 .card {
     background-color: #ffffff;
 }
+
 .card:hover {
-    border: 5px solid #555 !important;
+    border: 5px solid rgb(71, 71, 71) !important;
 }
-img{
-   max-width : 80px; 
+
+img {
+    max-width: 80px;
 }
+
 .ordi {
     min-height: 400px;
 }
-.attestation{
-    color : white; 
-    text-decoration : underline; 
+
+.attestation {
+    color: white;
+    text-decoration: underline;
 }
-.attestation:hover{
-    color : #ddd; 
+
+.attestation:hover {
+    color: #ddd;
 }
-.right{
-    margin-right : 10px; 
+
+.right {
+    margin-right: 10px;
 }
-.left{
-    margin-left : 10px; 
+
+.left {
+    margin-left: 10px;
 }
-.row2{
-    width : 100%; 
-    text-align : center; 
+
+.row2 {
+    width: 100%;
+    text-align: center;
 }
-#perso, #contact, #pro, #formations {
+
+#perso,
+#contact,
+#pro,
+#formations {
     margin-top: -40px;
-    
+}
+.buttonColor{
+    background-color: #118051; 
+}
+.barColor{
+    background-color: #118051 !important; 
 }
