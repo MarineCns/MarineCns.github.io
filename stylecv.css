@@ -1,9 +1,9 @@
 ﻿@font-face{
-    font-family : "Coiny-Cyrillic"; 
-    src : url("font/Coiny-Cyrillic.ttf");
+    font-family : "GosmickSansBold"; 
+    src : url("font/GosmickSansBold.ttf");
 }
 body {
-    font-family: Coiny-Cyrillic, sherif, monospace;
+    font-family: GosmickSansBold, sherif, monospace;
     background: url("imagefond/fondmarbre.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -18,8 +18,7 @@ body {
     color: #ffffff;
     min-height: 200px;
     text-align: right;
-    margin-top: 55px;
-}
+    }
 
 .compétence {
     text-decoration: overline;
@@ -53,7 +52,7 @@ h2 {
     background-color: #816d6c;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 1px solid #000000 ;
+    border: 3px solid #000000 ;
     text-shadow:
     #000000 1px 1px,
     #000000 -1px 1px,
