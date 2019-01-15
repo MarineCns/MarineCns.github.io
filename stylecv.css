@@ -25,18 +25,18 @@ body {
 }
 
 .année {
-    font-size: 35px;
+    font-size: 1.8em;
 }
 
 .diplome,
 .poste {
-    font-size: 30px;
+    font-size: 2em;
     font-weight: bold;
 }
 
 .nomdiplome,
 .entreprise {
-    font-size: 20px;
+    font-size: 1.3em;
 }
 
 .ecole {
@@ -107,4 +107,7 @@ img {
 }
 .margePage{
     margin-bottom: 75px
+}
+#job{
+    font-size : 2em; 
 }
