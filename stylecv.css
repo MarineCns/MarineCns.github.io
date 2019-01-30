@@ -10,7 +10,7 @@ body {
 }
 
 #title {
-    background: url("imagefond/fond4.jpg");
+    background: url("imagefond/fond7.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
     font-weight: bold;
@@ -49,15 +49,16 @@ body {
 
 h2 {
     font-weight: bold;
-    background-color: #816d6c;
+    background-color: #ffffff;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 3px solid #000000 ;
+    border: 1px solid #000000 ;
+    border-radius: 5px; 
     text-shadow:
-    #000000 1px 1px,
-    #000000 -1px 1px,
-    #000000 -1px -1px,
-    #000000 1px -1px; 
+    #ffffff 1px 1px,
+    #ffffff -1px 1px,
+    #ffffff -1px -1px,
+    #ffffff 1px -1px; 
 }
 .bg-dark {
     background: url("fondmarbre.jpg") !important;
@@ -66,7 +67,7 @@ h2 {
     background-color: #ffffff;
 }
 .card:hover {
-    border: 5px solid rgb(71, 71, 71) !important;
+    border: 5px solid #ffff40 !important;
 }
 img {
     max-width: 80px;
@@ -100,10 +101,10 @@ img {
     margin-top: -40px;
 }
 .buttonColor{
-    background-color: #6673a0; 
+    background-color: #150527; 
 }
 .barColor{
-    background-color: #6673a0 !important; 
+    background-color: #150527 !important; 
 }
 .margePage{
     margin-bottom: 75px
