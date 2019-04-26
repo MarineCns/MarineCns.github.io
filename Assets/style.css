@@ -1,6 +1,9 @@
 body {
     background-color: #205E5B; 
 }
+.photos{
+    background-color: #fff; 
+}
 .text-muted {
     margin-left: 20px; 
     font-size : 1.5em; 
